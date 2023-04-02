@@ -1,0 +1,41 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: gray;
+}
+nav div {
+  padding: 0 20px;
+}
+nav div:nth-child(2) {
+  display: flex;
+  padding-right: 50px;
+  /* padding-top: 10px; */
+  gap: 5px;
+}
+
+button {
+  border: none;
+  background-color: tomato;
+  border-radius: 25%;
+  padding: 10px 20px;
+}
+button a {
+  text-decoration: none;
+  color: wheat;
+  font-size: larger;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+footer {
+  display: block;
+  font-family: "Poppins";
+  background-color: gray;
+  text-align: center;
+  font-size: x-large;
+  position: absolute;
+  width: 100%;
+  bottom: 0%;
+}
